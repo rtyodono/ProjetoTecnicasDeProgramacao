@@ -21,19 +21,20 @@ Entrega:
 - No repositório deve conter o dataset e o arquivo .ipynb;
 - Entrega até o dia 26/04 no LMS;
 
-#Dataset utilizado:
+# Dataset utilizado:
 
-##Default of Credit Card Clients Dataset
-###Default Payments of Credit Card Clients in Taiwan from 2005
+## Default of Credit Card Clients Dataset
+### Default Payments of Credit Card Clients in Taiwan from 2005
 
 Acessado em 17/04/2026 em https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/
 
-About Dataset
-Dataset Information
+## About Dataset
+### Dataset Information
+
 This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
-Content
-There are 25 variables:
+## Content
+### There are 25 variables:
 
 ID: ID of each client
 LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit)
@@ -60,7 +61,9 @@ PAY_AMT4: Amount of previous payment in June, 2005 (NT dollar)
 PAY_AMT5: Amount of previous payment in May, 2005 (NT dollar)
 PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 default.payment.next.month: Default payment (1=yes, 0=no)
-Inspiration
+
+### Inspiration
+
 Some ideas for exploration:
 
 How does the probability of default payment vary by categories of different demographic variables?
@@ -73,9 +76,10 @@ Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/
 The original dataset can be found here at the UCI Machine Learning Repository.
 
 
-Consideramos também as informações abaixo, obtidas em https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/discussion/34608:
+### Consideramos também as informações abaixo, obtidas em https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/discussion/34608:
 
-Answer to missing values (-2, 0) not in measurement scale
+#### Answer to missing values (-2, 0) not in measurement scale
+
 I emailed the professor who created the data set. Listed here
 
 Below is the response regarding the values used for fields X6:X11
